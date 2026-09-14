@@ -1,0 +1,6 @@
+ARRAY LONGINT:C221(_Heights; 0)
+ARRAY TEXT:C222(_Names; 0)
+ARRAY TEXT:C222(_Ipsum; 0)
+
+ALL RECORDS:C47([LOREM:4])
+SELECTION TO ARRAY:C260([LOREM:4]Name:2; _Names; [LOREM:4]Ipsum:3; _Ipsum; [LOREM:4]Height:4; _Heights)
