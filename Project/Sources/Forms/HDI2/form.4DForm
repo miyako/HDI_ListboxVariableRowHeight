@@ -32,9 +32,9 @@
 					"dataSource": "TabControl",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Page 1",
-						"Page 2",
-						"Page 3"
+						":xliff:HDI2_TabPage1",
+						":xliff:HDI2_TabPage2",
+						":xliff:HDI2_TabPage3"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -57,8 +57,7 @@
 					"rowHeightAutoMax": "20px",
 					"headerHeight": "20px",
 					"scrollbarHorizontal": "hidden",
-					"fill": "#DFE4FF",
-					"alternateFill": "#F2FEF1",
+					"alternateFill": "automaticAlternate",
 					"events": [
 						"onClick",
 						"onDataChange",
@@ -76,13 +75,11 @@
 							"enterable": false,
 							"wordwrap": "normal",
 							"stroke": "automatic",
-							"fill": "#DFE4FF",
-							"alternateFill": "#F2FEF1",
 							"textAlign": "left",
 							"verticalAlign": "top",
 							"header": {
 								"name": "Header6",
-								"text": "Name",
+								"text": ":xliff:HDI2_HeaderName",
 								"dataSource": "Header1",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -91,10 +88,12 @@
 							"footer": {
 								"name": "Footer6",
 								"stroke": "automatic",
-								"fill": "#DFE4FF",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"class": "hdi-list"
+							},
+							"truncateMode": "none",
+							"class": "hdi-list"
 						},
 						{
 							"name": "Column7",
@@ -108,15 +107,13 @@
 							"contextMenu": "none",
 							"wordwrap": "normal",
 							"stroke": "automatic",
-							"fill": "#DFE4FF",
-							"alternateFill": "#F2FEF1",
 							"textAlign": "left",
 							"verticalAlign": "top",
 							"fontFamily": ".Helvetica Neue DeskInterface",
 							"fontSize": 13,
 							"header": {
 								"name": "Header7",
-								"text": "Ipsum",
+								"text": ":xliff:HDI2_HeaderIpsum",
 								"dataSource": "Header2",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -125,12 +122,15 @@
 							"footer": {
 								"name": "Footer7",
 								"stroke": "automatic",
-								"fill": "#DFE4FF",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"class": "hdi-list"
+							},
+							"truncateMode": "none",
+							"class": "hdi-list"
 						}
-					]
+					],
+					"class": "hdi-list"
 				}
 			}
 		},
@@ -191,20 +191,20 @@
 					"width": 210,
 					"height": 350,
 					"sizingY": "grow",
-					"text": "Individual row setting"
+					"text": ":xliff:HDI2_GroupBox"
 				},
 				"Button2": {
 					"type": "button",
 					"top": 345,
 					"left": 540,
 					"width": 100,
-					"height": 21,
-					"text": "Set",
+					"text": ":xliff:HDI2_BtnSet",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable3": {
 					"type": "input",
@@ -243,7 +243,7 @@
 					"width": 50,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Row:"
+					"text": ":xliff:HDI2_TxtRow"
 				},
 				"Text1": {
 					"type": "text",
@@ -252,20 +252,20 @@
 					"width": 50,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Height:"
+					"text": ":xliff:HDI2_TxtHeight"
 				},
 				"Button3": {
 					"type": "button",
 					"top": 375,
 					"left": 540,
 					"width": 100,
-					"height": 21,
-					"text": "Get",
+					"text": ":xliff:HDI2_BtnGet",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text3": {
 					"type": "text",
@@ -275,7 +275,7 @@
 					"height": 113,
 					"fontFamily": "Arial",
 					"fontSize": 12,
-					"text": "Test it yourself: Modify the value for a specific row and click \"Set\".\r\rYou can also get the value of any other row by clicking \"Get\""
+					"text": ":xliff:HDI2_Text3"
 				}
 			}
 		},
@@ -320,8 +320,7 @@
 					"headerHeight": "20px",
 					"selectionMode": "none",
 					"scrollbarHorizontal": "hidden",
-					"fill": "#DFE4FF",
-					"alternateFill": "#F4FFF4",
+					"alternateFill": "automaticAlternate",
 					"events": [
 						"onClick",
 						"onDataChange",
@@ -337,8 +336,6 @@
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"stroke": "automatic",
-							"fill": "#DFE4FF",
-							"alternateFill": "#F4FFF4",
 							"textAlign": "center",
 							"verticalAlign": "middle",
 							"events": [
@@ -347,7 +344,7 @@
 							],
 							"header": {
 								"name": "Header5",
-								"text": "Heights",
+								"text": ":xliff:HDI2_HeaderHeights",
 								"dataSource": "Header4",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -356,40 +353,43 @@
 							"footer": {
 								"name": "Footer5",
 								"stroke": "automatic",
-								"fill": "#DFE4FF",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"class": "hdi-list"
+							},
+							"truncateMode": "none",
+							"class": "hdi-list"
 						}
-					]
+					],
+					"class": "hdi-list"
 				},
 				"Button10": {
 					"type": "button",
 					"top": 150,
 					"left": 580,
 					"width": 80,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Reset",
+					"text": ":xliff:HDI2_BtnReset",
 					"focusable": false,
 					"method": "ObjectMethods/Button10.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button11": {
 					"type": "button",
 					"top": 150,
 					"left": 490,
 					"width": 70,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Clear",
+					"text": ":xliff:HDI2_BtnClear",
 					"focusable": false,
 					"method": "ObjectMethods/Button11.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text2": {
 					"type": "text",
@@ -399,7 +399,7 @@
 					"height": 75,
 					"fontFamily": "Arial",
 					"fontSize": 12,
-					"text": "Test it yourself: Modify values in the array to modify the row heights."
+					"text": ":xliff:HDI2_Text2"
 				}
 			}
 		}

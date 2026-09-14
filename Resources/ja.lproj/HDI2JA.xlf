@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="HDI2_TabPage1" resname="HDI2_TabPage1">
+        <source>Page 1</source>
+        <target>ページ 1</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabPage2" resname="HDI2_TabPage2">
+        <source>Page 2</source>
+        <target>ページ 2</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabPage3" resname="HDI2_TabPage3">
+        <source>Page 3</source>
+        <target>ページ 3</target>
+      </trans-unit>
+      <trans-unit id="HDI2_GroupBox" resname="HDI2_GroupBox">
+        <source>Individual row setting</source>
+        <target>行ごとの設定</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnSet" resname="HDI2_BtnSet">
+        <source>Set</source>
+        <target>設定</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TxtRow" resname="HDI2_TxtRow">
+        <source>Row:</source>
+        <target>行:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TxtHeight" resname="HDI2_TxtHeight">
+        <source>Height:</source>
+        <target>高さ:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnGet" resname="HDI2_BtnGet">
+        <source>Get</source>
+        <target>取得</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Text3" resname="HDI2_Text3">
+        <source>Test it yourself: Modify the value for a specific row and click "Set".You can also get the value of any other row by clicking "Get"</source>
+        <target>実際に試してみましょう：特定の行の値を変更して「設定」をクリックしてください。「取得」をクリックすると他の行の値も取得できます</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Text2" resname="HDI2_Text2">
+        <source>Test it yourself: Modify values in the array to modify the row heights.</source>
+        <target>実際に試してみましょう：配列内の値を変更すると行の高さが変わります。</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderName" resname="HDI2_HeaderName">
+        <source>Name</source>
+        <target>名前</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderIpsum" resname="HDI2_HeaderIpsum">
+        <source>Ipsum</source>
+        <target>Ipsum</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderHeights" resname="HDI2_HeaderHeights">
+        <source>Heights</source>
+        <target>高さ</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnReset" resname="HDI2_BtnReset">
+        <source>Reset</source>
+        <target>リセット</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnClear" resname="HDI2_BtnClear">
+        <source>Clear</source>
+        <target>クリア</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

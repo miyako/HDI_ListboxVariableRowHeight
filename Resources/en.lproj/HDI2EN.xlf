@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI2_TabPage1" resname="HDI2_TabPage1">
+        <source>Page 1</source>
+        <target>Page 1</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabPage2" resname="HDI2_TabPage2">
+        <source>Page 2</source>
+        <target>Page 2</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabPage3" resname="HDI2_TabPage3">
+        <source>Page 3</source>
+        <target>Page 3</target>
+      </trans-unit>
+      <trans-unit id="HDI2_GroupBox" resname="HDI2_GroupBox">
+        <source>Individual row setting</source>
+        <target>Individual row setting</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnSet" resname="HDI2_BtnSet">
+        <source>Set</source>
+        <target>Set</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TxtRow" resname="HDI2_TxtRow">
+        <source>Row:</source>
+        <target>Row:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TxtHeight" resname="HDI2_TxtHeight">
+        <source>Height:</source>
+        <target>Height:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnGet" resname="HDI2_BtnGet">
+        <source>Get</source>
+        <target>Get</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Text3" resname="HDI2_Text3">
+        <source>Test it yourself: Modify the value for a specific row and click "Set".You can also get the value of any other row by clicking "Get"</source>
+        <target>Test it yourself: Modify the value for a specific row and click "Set".You can also get the value of any other row by clicking "Get"</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Text2" resname="HDI2_Text2">
+        <source>Test it yourself: Modify values in the array to modify the row heights.</source>
+        <target>Test it yourself: Modify values in the array to modify the row heights.</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderName" resname="HDI2_HeaderName">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderIpsum" resname="HDI2_HeaderIpsum">
+        <source>Ipsum</source>
+        <target>Ipsum</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderHeights" resname="HDI2_HeaderHeights">
+        <source>Heights</source>
+        <target>Heights</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnReset" resname="HDI2_BtnReset">
+        <source>Reset</source>
+        <target>Reset</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnClear" resname="HDI2_BtnClear">
+        <source>Clear</source>
+        <target>Clear</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

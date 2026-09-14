@@ -1,4 +1,6 @@
 //%attributes = {"invisible":true}
+var $json : Collection
+
 ARRAY TEXT:C222(TabControl; 0)
 ARRAY TEXT:C222(TextTabControl; 0)
 

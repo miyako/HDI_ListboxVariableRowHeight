@@ -1,0 +1,19 @@
+@media (prefers-color-scheme: light) {
+	.hdi-list {
+		fill: #DFE4FF;
+	}
+
+	.hdi-alert {
+		stroke: #FF4D00;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-list {
+		fill: #1E2A3D;
+	}
+
+	.hdi-alert {
+		stroke: #CC3333;
+	}
+}

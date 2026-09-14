@@ -1,4 +1,5 @@
-C_TEXT:C284($vers)
+//%attributes = {"invisible":true}
+var $vers : Text
 
 Case of 
 		
@@ -8,14 +9,14 @@ Case of
 		
 		If ($vers<"16")  //1530 means 13R3   1501 means 15.1
 			
-			<>Quit:=True:C214
-			OBJECT SET TITLE:C194(*; "BtnDemo"; "Quit 4D")
+			Form.quit:=True:C214
+			OBJECT SET TITLE:C194(*; "BtnDemo"; Localized string("BtnClose"))
 			OBJECT SET VISIBLE:C603(*; "TxtSorry@"; True:C214)
 			OBJECT SET VISIBLE:C603(*; "TxtInfo@"; False:C215)
 			
 		Else 
 			
-			<>Quit:=False:C215
+			Form.quit:=False:C215
 			
 		End if 
 		

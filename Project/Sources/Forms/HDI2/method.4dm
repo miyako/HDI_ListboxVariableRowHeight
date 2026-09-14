@@ -1,3 +1,4 @@
+var $json : Collection
 
 Case of 
 	: (Form event code:C388=On Load:K2:1)
@@ -11,8 +12,13 @@ Case of
 		vRow:=1
 		vHeight:=50
 		
-		ALL RECORDS:C47([LOREM:4])
-		SELECTION TO ARRAY:C260([LOREM:4]Name:2; _Names; [LOREM:4]Ipsum:3; _Ipsum; [LOREM:4]Height:4; _Heights)
+		If (Get database localization:C1009(Current localization:K5:22)="ja")
+			$json:=JSON Parse:C1218(Folder:C1567(fk resources folder:K87:11).file("LOREM-ja.json").getText(); Is collection:K8:32)
+		Else 
+			$json:=JSON Parse:C1218(Folder:C1567(fk resources folder:K87:11).file("LOREM-en.json").getText(); Is collection:K8:32)
+		End if 
+		
+		COLLECTION TO ARRAY:C1562($json; _Names; "Name"; _Ipsum; "Ipsum"; _Heights; "Height")
 		
 	: (Form event code:C388=On Page Change:K2:54)
 		

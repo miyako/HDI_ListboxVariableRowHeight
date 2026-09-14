@@ -1,10 +1,4 @@
 //%attributes = {"invisible":true}
-C_REAL:C285(Demo)
-C_REAL:C285(Header1)
-C_REAL:C285(Header2)
-C_REAL:C285(Header4)
-C_TEXT:C284(Var1)
-C_TEXT:C284(Var2)
-C_TEXT:C284(Var3)
-C_LONGINT:C283(vHeight)
-C_LONGINT:C283(vRow)
+var Demo : Real
+var Var1; Var2; Var3 : Text
+var vHeight; vRow : Integer
