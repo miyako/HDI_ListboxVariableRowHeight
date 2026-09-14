@@ -29,11 +29,12 @@
 					"width": 320,
 					"height": 77,
 					"visibility": "hidden",
-					"stroke": "#FF4D00",
+					"stroke": "automatic",
 					"textAlign": "left",
 					"fontFamily": "Lucida Grande",
 					"fontSize": 13,
-					"text": "Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality."
+					"text": ":xliff:HDI_TxtSorry1",
+					"class": "hdi-alert"
 				},
 				"TxtInfo1": {
 					"type": "text",
@@ -43,7 +44,8 @@
 					"height": 18,
 					"class": "HDI",
 					"fontWeight": "bold",
-					"text": "How Do I..."
+					"text": ":xliff:HDI_TxtInfo1",
+					"stroke": "automatic"
 				},
 				"TxtInfo2": {
 					"type": "text",
@@ -53,7 +55,8 @@
 					"height": 88,
 					"class": "HDI",
 					"fontWeight": "bold",
-					"text": "… set different height for listbox rows ?\r\r(4D view Pro Licence required!)"
+					"text": ":xliff:HDI_TxtInfo2",
+					"stroke": "automatic"
 				},
 				"TxtSorry2": {
 					"type": "text",
@@ -64,7 +67,8 @@
 					"visibility": "hidden",
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "Sorry, this “How do I” (HDI) \rexample must be used with\ra newer version of 4D\r(v16 and above)."
+					"text": ":xliff:HDI_TxtSorry2",
+					"stroke": "automatic"
 				},
 				"Picture3": {
 					"type": "picture",
@@ -83,7 +87,8 @@
 					"height": 16,
 					"fontFamily": "Lucida Grande",
 					"fontSize": 12,
-					"text": "(4D v16 and above…)"
+					"text": ":xliff:HDI_TxtVersion",
+					"stroke": "automatic"
 				},
 				"TxtSorry3": {
 					"type": "text",
@@ -92,27 +97,27 @@
 					"width": 320,
 					"height": 37,
 					"visibility": "hidden",
-					"stroke": "#FF4D00",
 					"textAlign": "left",
 					"fontFamily": "Lucida Grande",
 					"fontSize": 13,
-					"text": "The plugin xxx is mandatory"
+					"text": ":xliff:HDI_TxtSorry3",
+					"class": "hdi-alert"
 				},
 				"BtnDemo": {
 					"type": "button",
 					"top": 280,
 					"left": 250,
 					"width": 90,
-					"height": 20,
 					"dataSource": "Demo",
 					"action": "accept",
-					"text": "Demo",
+					"text": ":xliff:HDI_BtnDemo",
 					"class": "default",
 					"focusable": false,
 					"defaultButton": true,
 					"events": [
 						"onClick"
-					]
+					],
+					"method": "ObjectMethods/BtnDemo.4dm"
 				}
 			}
 		}

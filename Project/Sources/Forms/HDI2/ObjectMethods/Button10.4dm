@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 ARRAY LONGINT:C221(_Heights; 0)
 ARRAY TEXT:C222(_Names; 0)
 ARRAY TEXT:C222(_Ipsum; 0)
